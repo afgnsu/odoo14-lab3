@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <!-- Top menu item -->
+        <menuitem name="Lab3(多對多)" id="lab3.menu_root"/>
+
+        <!-- actions -->
+        <menuitem name="電影" id="lab3.menu_1" parent="lab3.menu_root"
+                  action="lab3.action_movie_view"/>
+        <menuitem name="標籤" id="lab3.menu_2" parent="lab3.menu_root"
+                  action="lab3.action_tag_view"/>
+    </data>
+</odoo>
